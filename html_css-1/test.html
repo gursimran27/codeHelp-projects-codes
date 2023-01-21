@@ -5,6 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .b{
+            border: 1px solid black;
+            height: 300px;
+            width: 500px;
+            margin:0 auto;
+            box-sizing: border-box;
+            /* mean top bottom 0 and left right equal(auto) */
+        }
+        
+        .bg{
+            background-image: url(sport-1.jpg);
+            background-position: top;
+            overflow-x: hidden;
+            overflow-y: auto;
+            background-blend-mode: hard-light;
+            transition: all 1s ease-in-out;
+            width:298px;
+            /* background-attachment: fixed; */
+            /* background-size:cover%; */
+            filter: grayscale(100%);
+        }
+        .bg:hover{
+            background-position: center;
+            /* background-size: cover; */
+            filter: grayscale(0%);
+
+        }
+
+    </style>
 </head>
 
 <body>
@@ -71,7 +101,10 @@
 
        </div>
 
-
+<br><br>
+<div class="b bg">
+    hello
+</div>
 
 </body>
 </html>

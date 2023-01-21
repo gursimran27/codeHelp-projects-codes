@@ -8,6 +8,7 @@
     height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
+    background-color:aliceblue;
 }
 
 .container{
@@ -57,7 +58,7 @@
     /* filter: grayscale(0%); is not here as greyscale is of image and now we are on card*/
     cursor: pointer;
     filter: drop-shadow(0 0 10px #333);
-    transform: scale(1.03);
+    transform: scale(1.04);
     transition: 0.5s;
 }
 

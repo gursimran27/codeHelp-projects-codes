@@ -41,6 +41,9 @@
   bottom: 0;
   left: 0;
   right: 0;
+          /* or */
+  /* width:100%; */
+  /* height:100%; */
   /* this will make bg-color to completly fit insie its non static immidate ancestor */
   z-index: -1;
   /* to make bg-color behind hire-me content */

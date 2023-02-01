@@ -22,7 +22,7 @@
   font-weight: 500;
   color: white;
   position: relative;
-  /* for absolute positioning of bg-color */
+  /* for absolute positioning of bg-color in ::before */
 
   z-index: 1;
   /* beacuse bg-color layer will go completly behing box */

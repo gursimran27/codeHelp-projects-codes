@@ -90,7 +90,7 @@
                 /* hero section start */
 .hero-section {
   position: relative;
-  /* because some images/text need to be ovrelapped i.e absolute  */
+  /* because fadded text need to be ovrelapped i.e absolute  */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -464,7 +464,7 @@
 }
 
 .project-skill{
-  /* for iccons */
+  /* for icons */
   width: 40px;
   /* this sets the width fo icons */
 }

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900");
+/* from google font */
 
 * {
   margin: 0;
@@ -55,6 +56,7 @@ body {
   /* disable section of lines */
 }
 
+/* attribute selector */
 [type="radio"]:checked,
 [type="radio"]:not(:checked) {
   visibility: hidden;

@@ -66,7 +66,7 @@
 
         <!-- instead of flex we can also use div -->
         <ul class="flex gap-6">
-            <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+            <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block">
                 <!-- group mean as when we hover over the <li> then the opacity of lower div is active so thats why -->
                 <!-- transition is for smooth color transformation -->
                 <a href="#">Payments</a>
@@ -74,34 +74,34 @@
                 <!-- here group refers to <li> -->
             </li>
 
-            <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+            <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block">
                 <!-- transition is for smooth color transformation -->
                 <a href="#">Banking</a>
                 <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"></div>
             </li>
 
-            <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+            <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block">
                 <!-- transition is for smooth color transformation -->
                 <a href="#">Corporate Card</a>
             </li>
 
-            <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+            <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block">
                 <!-- transition is for smooth color transformation -->
                 <a href="#">Pay Role</a>
             </li>
 
-            <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+            <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block">
                 <!-- transition is for smooth color transformation -->
                 <a href="#">Resourses</a>
                 <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"></div>
             </li>
-            <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+            <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block">
                 <!-- transition is for smooth color transformation -->
                 <a href="#">Support</a>
                 <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"></div>
             </li>
 
-            <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+            <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block">
                 <!-- transition is for smooth color transformation -->
                 <a href="#">Pricing</a>
                 <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"></div>
@@ -114,13 +114,14 @@
           src="./images/india-flag.svg" 
           alt="flag"
           width="28px"
-          height="28px"/>  
+          height="28px"
+          class="hidden lg:block"/>  
 
           <button class="cursor-pointer py-3 px-5 font-mullish text-white border border-lightBlue rounded text-sm font-bold">Log In
           </button>
 
           <button class="bg-white cursor-pointer  py-3 px-4 font-mullish border rounded text-sm font-bold text-lightBlue300 
-          transition-all duration-200 hover:text-lightBlue500 flex">Sign Up
+          transition-all duration-200 hover:text-lightBlue500 hidden lg:flex">Sign Up
           <svg
           viewBox="0 0 24 24"
           focusable="false"
@@ -146,7 +147,8 @@
      <!-- instead of section we can also use div -->
       <section class="relative bg-deepBlue">
 
-    <div class="w-10/12 max-w-[1080px] flex items-center justify-between mx-auto ">
+    <div class="w-10/12 max-w-[1080px] flex lg:flex-row flex-col items-center justify-between mx-auto ">
+      <!-- for responsiveness we add lg:flex-row mean for width 1024px and higher than this we will make flex row and for width smaller than 1024px flex direction would be column -->
         <!-- w-10/12=83%  -->
 
         <!-- left part -->
